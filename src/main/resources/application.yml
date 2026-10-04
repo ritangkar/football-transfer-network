@@ -1,0 +1,14 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: football-transfer-network
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    root: INFO
+    com.ritangkar.transfernetwork: INFO
